@@ -29,7 +29,7 @@ This is a digital marketing project. Code and content should be optimized for ma
 - Set secure headers (CSP, X-Frame-Options, etc.)
 - Use HTTPS for all external communications
 - Implement proper CORS policies
-- For cookies: always set `httpOnly`, `secure`, `sameSite: strict`, and appropriate `maxAge`
+- For cookies: always set `httpOnly`, `secure`, appropriate `sameSite` (use `lax` for marketing cookies, `strict` for sensitive data), and appropriate `maxAge`
 
 ## Testing Standards
 
